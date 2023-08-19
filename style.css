@@ -30,6 +30,7 @@ header{
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0.5rem;
+    z-index: 1;
 }
 header .logo{
     font-size: 3rem;
@@ -74,6 +75,73 @@ header .fa-bars{
 }
 
 
+
+ 
+section{
+    padding: 2rem 9%;
+   
+}
+
+.home{
+   display: flex;
+   align-items: center;
+   min-height: 100vh;
+ 
+   background:url("Beautiful\ And\ Amazing\ Architecture\ Wallpapers\ Set\ -\ 17\ \(28\).jpg ") ;
+   background-size: cover;
+   background-position: center;
+}
+.home .content{
+    max-width: 50rem;
+    background:black;
+    opacity: 0.7;
+    padding: 20px;
+}
+.home .content h3{
+    font-size: 6rem;
+    color:white ;
+    opacity: 1;
+}
+.home .content span{
+    font-size: 3.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+    opacity: 1;
+    
+    
+}
+.home .content p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.main-btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: green;
+    color: white;
+    padding: 0.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    opacity: 1;
+    text-decoration: none;
+
+}
+ .main-btn:hover{
+    background-color: var(--pink);
+    transition: 0.3s linear;
+    color: white;
+ }
+
+
+
+
+
+
 @media (max-width:768px) {
     header .fa-bars{
         display: block;
@@ -103,47 +171,16 @@ header .fa-bars{
         transition: 1s ease;
         
     }
-} 
+    .home .content h3{
+        font-size: 5rem;
+    }
+    .home .content span{
+        font-size: 2.5rem;
+    }
+}  */
 
-section{
-    padding: 2rem 9%;
-    margin-top: 6rem;
-    position: absolute;
-}
-.home{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background: url();
-    background-size: cover;
-    background-position: center;
-}
-.home .content{
-    max-width: 50rem;
-    background:grey;
-    opacity: 0.7;
-    padding: px;
-}
-.home .content h3{
-    font-size: 5rem;
-    color:white ;
-    opacity: 1;
-}
-.home .content span{
-    font-size: 3.5rem;
-    color: var(--pink);
-    padding: 1rem 0;
-    line-height: 1.5;
-    opacity: 1;
-    
-    
-}
-.home .content p{
-    font-size: 1.5rem;
-    color: #fff;
-    padding: 1rem 0;
-    line-height: 1.5;
-}
+
+
 
 
 
